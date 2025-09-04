@@ -81,6 +81,15 @@ The **canvas** is the gray dotted grid background in the Editor UI. It displays 
 
 <figure><img src="/_images/courses/level-one/chapter-one/l1-c1-canvas.png" alt="Workflow canvas" style="width:100%"><figcaption align = "center"><i>Workflow canvas</i></figcaption></figure>
 
+#### Logs Panel
+- **Location**: Positioned at the bottom of the canvas.
+- **Purpose**: Displays execution logs, including node inputs, outputs, statuses (e.g., success, error), and error messages, enabling effective workflow debugging.
+- **Activation**: Populates with data after executing a workflow using the "Execute workflow" button or an active trigger.
+- **Additional Features**: Supports "Sync selection with canvas" (aligns log entries with corresponding nodes) and "Pop out panel" (provides a detachable view for enhanced usability).
+- **Note**: Execution logs are retained for 24 hours in the Community Edition; extended retention is available in paid plans.
+- **Visual Reference**:  
+  <figure><img src="/_images/courses/level-one/chapter-one/logs-panel-populated.png" alt="Logs Panel in Action"><figcaption align = "center"><i>Figure: Logs panel displaying execution data after workflow execution.</i></figcaption></figure>
+
 /// note | Moving the canvas
 You can move the workflow canvas around in three ways:
 
